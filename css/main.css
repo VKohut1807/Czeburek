@@ -1,0 +1,110 @@
+* {
+	scroll-behavior: smooth;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Joti One', sans-serif;
+	/*font-family: 'Jolly Lodger', sans-serif;*/
+	/*font-family: 'Ribeye', sans-serif;*/
+	/*font-family: 'Comic Sans MS', sans-serif;*/
+}
+
+#header {
+	opacity: .6;
+	display: block;
+}
+
+#header a:hover{
+	color: #f9aa53;
+}
+
+.nav-pills>li>a.active,
+.nav-pills>li>a:hover,
+.nav-pills>li>a:focus {
+  background-color: #000!important;
+}
+
+.hyperlink{
+	padding-bottom: 1em;
+	color: #f9aa53; 
+}
+
+.carousel-inner {
+	display: block;
+    max-height: 100vh;
+    width: auto;
+    margin: 0 auto;
+}
+
+.cards {
+	padding-top: 6em;
+	padding-bottom: 6em;
+	padding-left: 0em;
+	padding-right: 0em;
+}
+
+#onas:target ~A[rel=onas] {
+	display: block;
+}
+
+#onas {
+
+	background-color: #000;
+}
+
+#onas picture{
+	border: none;
+}
+
+#onas table {
+	background-color: #000;
+}
+
+#onas a {
+	color: #000;
+	background-color: #fff;
+}
+
+.btn:hover,
+.btn:focus {
+  	background-color: #f9aa53!important;
+	color: #fff!important;
+}
+
+.spacee {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+#galeria {
+	background-color: #000;
+}
+
+#footer {
+	background-color: #000;
+}
+
+#footer h5 span {
+	margin: 0 0.27777777777778% 0 0.27777777777778%;
+}
+
+#footer a, span {
+	color: #fff;
+}
+
+#footer a:hover,span:hover {
+	color: #f9aa53;
+}
+
+.faceLink, .instaLink {
+	background-color: #fff;
+}
+
+.instaLink:hover, .faceLink:hover {
+	background-color: #f9aa53;
+}
+
+.spec-text {
+	color: #f9aa53;
+}
+

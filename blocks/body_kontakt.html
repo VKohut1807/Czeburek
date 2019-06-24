@@ -1,0 +1,46 @@
+<div id="kontakt" class="container cards">
+	<div class="row">
+	   <div class="text-center col-12">
+	    	<h1 class="hyperlink text-uppercase font-weight-bolder mx-auto">Kontakt</h1>
+	      <p class="font-italic">Czeburek ul. Lipowa 7 Kraków - tel. 881 775 991</p>
+         <h4 class="font-weight-bold text-center my-4">Formularz kontaktowy</h4>
+	   </div>
+	   <div class="row container">  
+         <form class="col-lg-8 col-md-12 col-12" id="mailForm" method="post">
+            <div class="col-12"> 
+               <div class="row">
+                  <div class="col-lg-6 col-md-6 col-12">
+                     <label for="firstName" class="mt-4 mb-3">Twoje imię<span class="spec-text">*</span></label>
+                     <input type="text" class="form-control" id="firstName" placeholder="imię" value="" required="" name="firstName">
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-12">
+                     <label for="lastName" class="mt-4 mb-3">Twoje nazwisko<span class="spec-text">*</span></label>
+                     <input type="text" class="form-control" id="lastName" placeholder="nazwisko" value="" required="" name="lastName">
+                  </div>
+               </div>
+            </div>
+            <div class="col-12">
+               <label for="email" class="mt-4 mb-3">Twój adres email<span class="spec-text">*</span></label>
+               <input type="email" class="form-control" id="email" placeholder="twój@email.com" name="email">
+               <label for="message" class="mt-4 mb-3">Treść wiadomości<span class="spec-text">*</span></label>
+               <textarea class="form-control py-3" id="message" placeholder="treść wiadomości" name="message" required=""></textarea>
+               <p class="spec-text text-left my-3">* - To pole jest obowiązkowe</p>
+               <button class="btn border btn-lg btn-block" type="button" id="sendMail">Wyślij nam wiadomość</button>
+            </div>
+         </form>
+
+         <div class="text-center mx-auto col-lg-4 col-md-12 col-12">
+            <p class="mt-4 mb-3 font-italic">Bądź napisz do nas, przez Social Media</p>
+            <div class="row">
+              <!--  <div class="col-lg-6 col-md-6 col-6">
+                  <a href="instagram.com"><img class="rounded-circle instaLink" src="img/instaLogo.png" alt="LinkInstagra" width="50" height="50"></a>
+         	   </div> -->
+         	   <div class="col-12">
+         	      <a href="https://www.facebook.com/messages/t/czeburek"><img class="rounded-circle faceLink" src="img/fbLogo.png" alt="LinkFacebook" width="50" height="50"></a>
+         	   </div>
+            </div>
+      	</div>
+         <div id="errorMessage" class="col-12 text-danger text-left my-3"></div>
+      </div>
+   </div>
+</div>
